@@ -1,6 +1,6 @@
 from dhrv04_preprocess import utils
 
-__version__ = '0.1'
+__version__ = '0.2'
 
 
 def get_WordCounts(x):
