@@ -60,11 +60,14 @@ def RemoveStopWords(x):
 def RootWord(x):
 	return utils._RootWord(x)
 
-def RemoveCommonWords(x, n=20):
-	return utils._RemoveCommonWords(x, n=20)
+def getValueCounts(df, colname):
+	return utils._getValueCounts(df, colname)
 
-def RemoveRareWords(x, n=20):
-	return utils._RemoveRareWords(x, n=20)
+def RemoveCommonWords(x, freq, n=20):
+	return utils._RemoveCommonWords(x, freq, n=20)
+
+def RemoveRareWords(x, freq, n=20):
+	return utils._RemoveRareWords(x, freq, n=20)
 
 def SpellingCorrection(x):
 	return utils.SpellingCorrection(x)
