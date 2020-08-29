@@ -5,7 +5,7 @@ Dhruv Singh
 
 Install
 
-`pip install git+ssh://git@github.com/dhrv04/dhrv04_preprocess.git` 
+`pip install git+https://github.com/dhrv04/dhrv04_preprocess.git` 
 
 Uninstall
 
